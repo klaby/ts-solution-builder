@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "composite": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
+}

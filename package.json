@@ -1,0 +1,20 @@
+{
+  "name": "ts-solution-builder",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:klaby/ts-solution-builder.git",
+  "author": "Romullo <developermarsh@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/bar",
+    "packages/foo"
+  ],
+  "scripts": {
+    "prebuild": "rimraf packages/bar/dist packages/foo/dist",
+    "build": "yarn tsc -b"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.3"
+  }
+}

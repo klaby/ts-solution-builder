@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.app",
+  "compilerOptions": {
+    "noEmit": true,
+    "typeRoots": ["node_modules/@types"]
+  },
+  "references": [{ "path": "packages/bar" }, { "path": "packages/foo" }]
+}
