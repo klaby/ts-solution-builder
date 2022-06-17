@@ -7,5 +7,8 @@
   "types": "./dist/src/index.d.ts",
   "repository": "git@github.com:klaby/ts-solution-builder.git",
   "author": "Romullo <developermarsh@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@presets/tsconfig": "1.0.0"
+  }
 }

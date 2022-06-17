@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.app",
+  "extends": "@presets/tsconfig",
   "compilerOptions": {
     "rootDir": ".",
     "baseUrl": ".",
