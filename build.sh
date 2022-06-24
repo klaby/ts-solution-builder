@@ -9,6 +9,7 @@ for pkg in "${sources[@]}"
 do
    (
      cd ./"$pkg" \
+     && yarn tsc -b \
      && yarn tsc-alias -f -v
    )
 done
